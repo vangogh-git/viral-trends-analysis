@@ -1,6 +1,6 @@
 # 🚀 Rise, Peak, Die: The Data Science of Viral Trends
 
-Analysis of how different topics trend over time using Google Trends data — tracking growth, peaks, and volatility to understand *why* some trends explode and others fizzle.
+Analysis of how different topics trend over time using Google Trends data — tracking growth, peaks, and volatility to understand _why_ some trends explode and others fizzle.
 
 ---
 
@@ -9,6 +9,7 @@ Analysis of how different topics trend over time using Google Trends data — tr
 This project explores the lifecycle of viral trends using real-world Google Trends data. It compares three very different categories of topics to see whether their "rise, peak, die" curves follow similar or distinct patterns.
 
 **Keywords analyzed:**
+
 - ChatGPT
 - Bitcoin
 - FIFA World Cup
@@ -26,14 +27,14 @@ This project explores the lifecycle of viral trends using real-world Google Tren
 
 ## 📊 Methods
 
-| Step | Technique |
-|------|-----------|
-| Data Collection | Pytrends (Google Trends API wrapper) |
-| Data Processing | Pandas |
-| Visualization | Matplotlib, Seaborn |
-| Peak Detection | Local maxima detection |
-| Clustering | K-Means |
-| Volatility Analysis | Standard Deviation |
+| Step                | Technique                            |
+| ------------------- | ------------------------------------ |
+| Data Collection     | Pytrends (Google Trends API wrapper) |
+| Data Processing     | Pandas                               |
+| Visualization       | Matplotlib, Seaborn                  |
+| Peak Detection      | Local maxima detection               |
+| Clustering          | K-Means                              |
+| Volatility Analysis | Standard Deviation                   |
 
 ---
 
@@ -57,11 +58,11 @@ This project explores the lifecycle of viral trends using real-world Google Tren
 **Volatility Comparison**
 ![Volatility comparison bar chart](graphs/volatility.png)
 
-**Average Interest Comparison**
-![Average interest bar plot per keyword](graphs/avg_barplot.png)
-
 **Correlation Heatmap**
 ![Heatmap of correlation between trends](graphs/heatmap.png)
+
+**Average Interest Comparison**
+![Average interest bar plot per keyword](graphs/avg_barplot.png)
 
 **Clustering Results (K-Means)**
 ![K-Means clustering of trend behaviors](graphs/cluster.png)
@@ -73,7 +74,7 @@ This project explores the lifecycle of viral trends using real-world Google Tren
 - **Event-driven trends** (e.g., FIFA World Cup) → sharp, short-lived spikes
 - **Market-driven trends** (e.g., Bitcoin) → frequent, unpredictable fluctuations
 - **Technology trends** (e.g., ChatGPT) → more stable, sustained growth
-- Not all trends behave the same — the *cause* of a trend shapes its curve
+- Not all trends behave the same — the _cause_ of a trend shapes its curve
 
 ---
 
@@ -90,17 +91,20 @@ This project explores the lifecycle of viral trends using real-world Google Tren
 ## 🚀 Run Locally
 
 Clone the repository:
+
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
 Install dependencies:
+
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn pytrends
 ```
 
 Launch the notebook:
+
 ```bash
 jupyter notebook
 ```
