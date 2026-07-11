@@ -93,8 +93,8 @@ This project explores the lifecycle of viral trends using real-world Google Tren
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/vangogh-git/viral-trends-analysis
+cd viral-trends-analysis
 ```
 
 Install dependencies:
